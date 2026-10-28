@@ -2,26 +2,29 @@
 
 **Team: FlyPig AI. Project: OnDemand World Observatory. Author: M.K. Hsu.**
 
-**Narration storyboard target: 2:35, under three minutes. Local review cut: 1:04 (64 seconds), eight English-text chapters, no audio.** No working demo exists. The local text-led review cut uses actual prior K habitat footage plus original diagrams. It has no narration, no cloned voice and no paid generation. Author narration can be recorded later if desired. Do not publish or submit before eligibility and rights confirmation.
+Narration storyboard target: **2:35**. Local concept cut: **1:04**, eight English-text chapters with prior K habitat footage. The script presents the planned observation experience and its website integration.
 
-Persistent video label: **CONCEPT WALKTHROUGH / PRIOR K FOOTAGE / NO LIVE GENERATION**. Every proposed operation uses conditional wording. Source captions name FK-W001 / FK-W003. Different old clips must never be edited to imply a real page refresh generated them.
+Persistent video label: **CONCEPT WALKTHROUGH / PRIOR K FOOTAGE / NO LIVE GENERATION**. Source captions identify FK-W001 / FK-W003. The local cut uses prior footage as a visual concept reference.
 
 | Time | Visual / shot plan | English voice-over draft |
 |---|---|---|
-| 00:00–00:15 | Existing wetland footage with project title and disclosure | This is OnDemand World Observatory, a Stage I concept from FlyPig AI, authored by M.K. Hsu. The habitat footage comes from the earlier K's Hunting Log. It illustrates the creative direction. It does not show a working prototype or live generation. |
-| 00:15–00:35 | Prior K footage, then original diagram showing repeat visitor | A returning visitor often sees the same images or prerecorded clips. Our proposal is to offer a fresh observation when the page opens, while preserving the creator's world rules and visual identity. |
-| 00:35–00:55 | Domain, species, time and climate inputs in an original flat diagram | The proposed AI would read an established domain, the species that could plausibly appear, the time and the climate. It would compose a coherent new scenario and a video prompt. These inputs are creator-defined fictional context in the first version. |
-| 00:55–01:15 | Hand-authored prompt sample and labeled reference frame | For example, misty dawn could produce a quiet wetland observation with one approved bird and gentle ripples. This prompt is a written sample. With approved reference images, a video backend would create a new short clip for playback. |
-| 01:15–01:35 | Fresh request / generation / playback diagram, no fake loading timer | Each opening is intended to request new content. If a job fails, the page should explain the failure or clearly label a reference preview. It should never present an old clip as a newly generated result. |
-| 01:35–01:55 | Hardware boundary diagram | If selected, we plan to evaluate UGen300 with Hailo-10H for context interpretation and scenario or prompt construction. Video generation remains a separate backend decision. We have no on-device video result, measured latency or power result today. |
-| 01:55–02:15 | Original validation plan diagram, no invented chart | Stage II would test supported models, reference consistency, context rules, failures and time to playback. Creator interviews and a small visitor study would test whether the experience earns revisits and reduces manual authoring work. |
-| 02:15–02:35 | Prior K footage followed by author and private repo URL | The repository contains the proposal, interface drafts and written examples. K's Hunting Log is prior concept material. The separate story-to-world Studio is another product. Eligibility and rights need confirmation. The next step is a verifiable implementation after selection. |
+| 00:00–00:15 | Prior habitat footage, project title and source label | OnDemand World Observatory is a project from FlyPig AI, authored by M.K. Hsu. We plan realistic, real-time imagery for websites that already have artwork and world settings. This concept walkthrough uses earlier K's Hunting Log footage as a visual reference. |
+| 00:15–00:35 | Scene artwork and a visitor returning to an observation page | IP owners and website operators could turn familiar locations into windows worth revisiting. Each opening would request a new observation while preserving the creator's world rules and artistic identity. |
+| 00:35–00:55 | Domain, eligible subjects, time and climate | AI would combine the domain, plausible species or characters, time and climate to plan a coherent activity, environment and viewing perspective. Operators could control what may appear and what events may occur. |
+| 00:55–01:15 | Written prompt example and a reference frame | At misty dawn, an approved bird might move beside reeds. The scenario would become a prompt describing subject, motion, environment and camera. A video service would use that prompt and existing reference images to create a new clip. |
+| 01:15–01:35 | Observation component and request/status/playback diagram | The observation component would embed into an existing website. It would present generation status, the clip and a contextual description, with controls for another observation. Reference previews would carry their own labels. |
+| 01:35–01:55 | Device, host and video-service division | For Battlefield Lightning, we plan to evaluate UGen300 with Hailo-10H for context interpretation and prompt planning. A host would coordinate data and requests. A video generation service would handle clip creation. Development would establish the final integration. |
+| 01:55–02:15 | World-rule checks, visual review and website applications | Evaluation would cover scenario coherence, reference consistency, device processing and time to playback. Applications could include novel and game worlds, virtual ecology, travel showcases and brand storytelling sites. |
+| 02:15–02:35 | Project, team and public repository URL | FlyPig AI plans to begin with one domain and reference set, then develop an embeddable observation component. The public repository contains the proposal, architecture, interfaces and examples. Visit the project to explore the plan and its intended applications. |
 
-## Recording and edit handoff
-Use a natural English read at roughly 115–130 words per minute with pauses, staying under three minutes. Keep source disclosures visible even under narration. No need to record a person's face. Export H.264 1280×720 or better. Keep concept status on title and closing frames. The local review cut uses text instead of a voice track and is useful as a review asset; the author may choose to record this script over it.
+## Recording and editing
 
-## Remaining video gaps
-No operational UI capture, AI inference capture, UGen300 footage or live-generated clip exists. None should be fabricated. K source-rights and originality clearance are pending. No narration is recorded. No YouTube upload exists. The form currently marks the video optional, but the homepage requests an English demonstration video. Ask the organizer whether this concept walkthrough is adequate for Stage I.
+Use a natural English read with pauses and keep the introduction under three minutes. Keep prior-footage source labels visible. Export H.264 at 1280×720 or higher. The local concept cut uses English text without a narration track. A recorded narration can follow this storyboard.
 
-## Local 64-second review cut
-The local edit compresses the concept into eight 8-second text chapters. The 2:35 narration storyboard above remains a separate recording plan. Local chapter timing: title 00:00-00:08, revisit value 00:08-00:16, context 00:16-00:24, written prompt 00:24-00:32, honest status 00:32-00:40, UGen300 hypothesis 00:40-00:48, future validation 00:48-00:56, handoff 00:56-01:04. Each chapter uses source range 00:00.500-00:08.500 from alternating FK-W001 and FK-W003, explicitly marked as repeated prior footage. All original audio is removed. It is not a working demonstration or an uploaded contest video.
+## Production and submission notes
+
+The local footage is a concept reference. Future hardware and application demonstrations would use actual operation captured during development. Narration and a YouTube Unlisted link remain production tasks. Asset permissions and submission eligibility follow `provenance-and-rights.md`. The form marks video optional, while the homepage requests an English demonstration video.
+
+## Local 64-second concept cut
+
+Eight 8-second chapters cover the project, revisit value, context, written prompt, request status, hardware plan, evaluation and project links. Each chapter uses source range 00:00.500–00:08.500 from alternating FK-W001 and FK-W003, with continuous prior-footage labels. Original source audio is removed. The final chapter points to the public project and the planned website observation experience.

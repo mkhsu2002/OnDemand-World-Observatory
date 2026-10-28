@@ -28,7 +28,7 @@ For winning entries, rules and attachment provide perpetual, royalty-free domest
 2. May Stage I concept media contain clearly labeled prior K footage, or must all submitted visuals be unpublished? May a link-only reference remain in the proposal?
 3. How does the originality warranty apply to AI-assisted drafting and AI-generated images/video, and what proof of rights is required for sublicensing?
 4. Does UGen300-based context/scenario/prompt inference plus a separately validated video backend satisfy Lightning Stage II? Which evidence must run on device?
-5. How should judges access a private GitHub repository without public release? Is a proposal/contracts-only Stage I repository acceptable when implementation begins after selection?
+5. The author has made the repository PUBLIC for proposal review. What source-content and implementation evidence does the organizer expect in the Stage I repository?
 6. The modal marks the video optional and GitHub without an asterisk. Does that supersede the homepage deliverable wording? What international phone format is accepted?
 
 Contact from official rules: asus_aihackathon@bhuntr.com. This document is a draft only and has not been sent.

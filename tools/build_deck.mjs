@@ -13,7 +13,7 @@ const p=Presentation.create({slideSize:{width:1280,height:720}});
 const C={paper:'#F3F1E7',ink:'#14362D',muted:'#50665B',green:'#2F7760',mint:'#B9DDC9',gold:'#D6AE61',line:'#C5CCC1',dark:'#102A24',white:'#FFFFFF'};
 function shape(s,x,y,w,h,fill,geo='rect',stroke='none'){return s.shapes.add({geometry:geo,position:{left:x,top:y,width:w,height:h},fill,line:{fill:stroke,width:stroke==='none'?0:1,style:'solid'}})}
 function txt(s,text,x,y,w,h,size=24,color=C.ink,bold=false){let t=shape(s,x,y,w,h,'none','textbox');t.text=text;t.text.style={typeface:FONT,fontSize:size,color,bold};return t;}
-function base(title,number,dark=false){let s=p.slides.add();s.background.fill=dark?C.dark:C.paper;const color=dark?C.paper:C.ink;txt(s,title,64,50,1150,96,42,color,true);shape(s,64,161,1152,2,dark?'#416255':C.line);txt(s,'STAGE I CONCEPT / NO PRODUCT IMPLEMENTATION',64,674,1000,22,14,dark?C.mint:C.muted);txt(s,String(number).padStart(2,'0'),1166,674,50,22,14,dark?C.mint:C.muted);return s;}
+function base(title,number,dark=false){let s=p.slides.add();s.background.fill=dark?C.dark:C.paper;const color=dark?C.paper:C.ink;txt(s,title,64,50,1150,96,42,color,true);shape(s,64,161,1152,2,dark?'#416255':C.line);txt(s,'STAGE I / PROJECT PLAN',64,674,1000,22,14,dark?C.mint:C.muted);txt(s,String(number).padStart(2,'0'),1166,674,50,22,14,dark?C.mint:C.muted);return s;}
 function note(s,text){s.speakerNotes.text=text;}
 function line(s,x,y,w,color=C.line){shape(s,x,y,w,1,color);}
 function row(s,n,title,body,y){txt(s,n,68,y,80,60,n.length>2?24:34,C.green,true);txt(s,title,156,y,995,44,27,C.ink,true);txt(s,body,156,y+49,1000,74,23,C.muted);}
@@ -24,13 +24,13 @@ const home='https://contest.bhuntr.com/tw/39jg9vimiynrhlksze/home/';
 const repo='https://github.com/mkhsu2002/OnDemand-World-Observatory';
 {
  let s=base('OnDemand World\nObservatory',1,true);
- txt(s,'Context-conditioned short video\nfor every observation-page opening',64,248,740,128,34,C.paper);
+ txt(s,'Realistic, real-time imagery\nfor websites with existing world settings',64,248,740,128,34,C.paper);
  txt(s,'Team: FlyPig AI / Author: M.K. Hsu\nCreator AI / Battlefield Lightning / Global Online Track',64,460,1010,92,24,C.mint);
  txt(s,'28 October 2026',64,586,600,32,21,C.gold);
  // An original flat observation-window diagram, with editable geometry.
  shape(s,902,242,250,250,'none','ellipse','#608C76');shape(s,940,280,174,174,'none','ellipse','#608C76');
  shape(s,884,365,286,2,C.gold);shape(s,1026,224,2,286,C.gold);txt(s,'NEW\nMOMENT',960,321,160,90,27,C.paper,true);
- note(s,'New proposal and interface drafts only. No generated-on-open prototype or hardware result. Team: FlyPig AI. Author credit M.K. Hsu. Product definition from author instruction, 28 Oct 2026. Official track: '+home);
+ note(s,'Stage I project plan for a website observation experience. Team: FlyPig AI. Author credit M.K. Hsu. Product definition from author instruction, 28 Oct 2026. Official track: '+home);
 }
 {
  let s=base('Repeat visits need fresh moments',2);
@@ -42,13 +42,13 @@ const repo='https://github.com/mkhsu2002/OnDemand-World-Observatory';
  let s=base('The proposed observation flow',3);
  const a=[['01','Open page'],['02','Compose scenario'],['03','Generate clip'],['04','Play new result']];
  a.forEach(([n,t],i)=>{let x=64+i*297;txt(s,n,x,221,240,80,54,C.green,true);txt(s,t,x,320,254,90,27,C.ink,true);if(i<3)shape(s,x+250,263,40,3,C.gold);});
- txt(s,'Domain + eligible species + time + climate + approved reference images',64,464,1145,80,29,C.ink);
- txt(s,'Fast generation is the intended experience. Backend and latency remain unvalidated.',64,584,1145,55,24,C.muted);
- note(s,'Every opening intends a new request and new clip. This is an episodic video experience. No 3D, 2.5D, WebGL or persistent simulation engine. No implemented flow exists.');
+ txt(s,'World settings + eligible subjects + time + climate + reference images',64,464,1145,80,29,C.ink);
+ txt(s,'A new contextual moment, planned from the creator’s world and existing artwork.',64,584,1145,55,24,C.muted);
+ note(s,'Each opening would request a new observation clip using the selected domain and references.');
 }
 {
  let s=base('Creator-defined context and constraints',4);
- row(s,'01','World facts','One domain, approved species, visual references and prohibited events.',211);
+ row(s,'01','World facts','One domain, eligible species or characters, visual references and event rules.',211);
  row(s,'02','Context snapshot','Creator-defined fictional time and climate in the first version.',359);
  row(s,'03','Coherence checks','Reject unsupported species or conditions before requesting a video.',507);
  note(s,'Proposed method. Live weather would require a later data source and timestamp. Context does not claim scientific prediction or continuously evolving ecosystem state.');
@@ -58,41 +58,41 @@ const repo='https://github.com/mkhsu2002/OnDemand-World-Observatory';
  txt(s,'FICTIONAL WETLAND / DAWN / MIST',64,212,1080,44,23,C.gold,true);
  txt(s,'One approved wading bird takes two slow steps\nbeside reeds. Gentle ripples cross still water.',64,285,1135,132,37,C.paper,true);
  txt(s,'Prompt direction: preserve the reference anatomy and habitat.\nUse a fixed wide camera, subtle motion and no additional species.',64,463,1120,100,26,C.mint);
- txt(s,'Hand-authored sample. No model output, generated clip or measured result.',64,598,1120,44,22,C.gold);
- note(s,'Example drafted for this proposal, not AI inference output. Reference asset approval is pending. No generation job was executed. See examples/scenario.json and examples/result.json.');
+ txt(s,'Illustrative scenario for the planned reference-conditioned workflow.',64,598,1120,44,22,C.gold);
+ note(s,'Written scenario example for the proposed prompt-planning workflow. See examples/scenario.json and examples/result.json.');
 }
 {
  let s=base('Proposed software and hardware architecture',6);
  box(s,'Browser\nOpen / status / playback',64,215,304,119);
  box(s,'Host coordinator\nDomain and references',470,215,340,119);
- box(s,'Scenario / prompt\nUGen300 hypothesis',914,215,302,119,C.green,24,C.white);
+ box(s,'Scenario / prompt\nUGen300 planning role',914,215,302,119,C.green,24,C.white);
  shape(s,368,272,102,3,C.gold);shape(s,810,272,104,3,C.gold);
  box(s,'New clip + manifest\nProvenance and labels',64,431,405,124);
- box(s,'Video backend\nUnselected / unvalidated',573,431,643,124,'#E4D6B6');
+ box(s,'Video backend\nService integration plan',573,431,643,124,'#E4D6B6');
  shape(s,469,491,104,3,C.gold);shape(s,1064,334,3,97,C.gold);
- txt(s,'The device contribution and the video-generation backend require separate validation.',64,592,1138,52,24,C.muted);
- note(s,'Architecture draft only. Evaluate context interpretation and scenario/prompt construction on UGen300 / Hailo-10H. Host orchestration remains necessary. Do not infer all-local execution or device video capability. Confirm split eligibility with organizer. '+home);
+ txt(s,'The planned architecture separates context planning, video generation and website playback.',64,592,1138,52,24,C.muted);
+ note(s,'Evaluate context interpretation and prompt planning on UGen300 / Hailo-10H, coordinated by a host and integrated with a video service. Confirm the final split against track requirements. '+home);
 }
 {
  let s=base('UGen300 evaluation scope',7);
  cols(s,[['Candidate role','Context interpretation and constrained scenario / prompt construction using a supported Hailo-10H model.'],['Compatibility gate','Confirm received device, host OS, drivers, memory and model runtime. USB versus M.2 selection remains pending.'],['Evidence needed','Actual device operation, model versions, reproducible logs and separate timings for every pipeline stage.']]);
- txt(s,'No UGen300 video, latency, power or deployment result exists today.',64,567,1120,68,27,C.green,true);
- note(s,'Vendor describes Hailo-10H and LLM/VLM model categories. This does not establish workload compatibility. USB page: https://www.asus.com/tw/motherboards-components/ai-accelerator/ugen/ugen300-usb-8g/ accessed 28 Oct 2026. Form warns fixed hardware choice. Stage II requires actual UGen300 operation: '+home);
+ txt(s,'Development will evaluate model support, runtime compatibility and pipeline performance.',64,567,1120,68,27,C.green,true);
+ note(s,'Vendor describes Hailo-10H and LLM/VLM model categories. Development will check workload compatibility against supported models. USB page: https://www.asus.com/tw/motherboards-components/ai-accelerator/ugen/ugen300-usb-8g/ accessed 28 Oct 2026. Form warns fixed hardware choice. Stage II requires actual UGen300 operation: '+home);
 }
 {
- let s=base('Prior work and new application scope',8);
- txt(s,'Prior public material',64,213,525,55,30,C.green,true);txt(s,'New proposal work',686,213,525,55,30,C.green,true);
- txt(s,'K’s Hunting Log\nHabitat imagery, species setting\nand pre-existing video clips\n\nSeparate Studio product\nStory-to-world authoring context',64,288,525,265,26,C.ink);
- txt(s,'Page-open observation design\nContext and constraint interface\nHand-authored payload examples\nHardware evaluation plan\nProposal, slides and video script',686,288,525,265,26,C.ink);
- txt(s,'No Studio code copied. Disclosure does not establish originality eligibility.',64,591,1145,56,24,C.muted);
- note(s,'K prior concept: https://k-hunting-log.icareu.tw/journey/ accessed 28 Oct 2026. Agentic-Life-World-Zero / Agentic-Life-World-Studio is another product. Originality attachment includes similar public works by the same author. Written organizer clarification is pending.');
+ let s=base('Reference material and planned development',8);
+ txt(s,'Existing visual references',64,213,525,55,30,C.green,true);txt(s,'Planned observation system',686,213,525,55,30,C.green,true);
+ txt(s,'K’s Hunting Log\nHabitat artwork\nSpecies settings\nPublished concept clips',64,288,525,265,26,C.ink);
+ txt(s,'Page-open observation requests\nWorld rules and scenario planning\nReference-conditioned prompts\nVideo-service integration\nEmbeddable website component',686,288,525,265,26,C.ink);
+ txt(s,'Reference credits and rights information accompany the project materials.',64,591,1145,56,24,C.muted);
+ note(s,'K prior concept: https://k-hunting-log.icareu.tw/journey/ accessed 28 Oct 2026. Existing K artwork and footage provide concept references. Planned development covers the observation pipeline and website component. Originality and asset requirements are documented in the rights register.');
 }
 {
- let s=base('What exists today',9);
- row(s,'YES','Reviewable application materials','Proposal, editable deck, draft schemas, written examples and a source register.',211);
- row(s,'NO','Operating product implementation','No scenario model, video adapter, generated-on-open page or deployed service.',359);
- row(s,'NO','Hardware and performance evidence','No UGen300 integration, device-generated video, latency or power measurements.',507);
- note(s,'The GitHub repository is a proposal and interface-draft repository, not complete prototype source. Contract checks verify internal consistency only. Local concept media uses prior K footage and is excluded from Git.');
+ let s=base('Website observation component',9);
+ row(s,'01','Scene configuration','Operators select the domain, references, eligible subjects, time and climate options.',211);
+ row(s,'02','Observation experience','The component would show request status, video, context and another-observation controls.',359);
+ row(s,'03','Website integration','The planned component would embed into story, character, location or brand pages.',507);
+ note(s,'Planned website component and operator controls. Architecture, interfaces and written examples are available in the public repository.');
 }
 {
  let s=base('Commercial hypothesis and pilot',10);
@@ -106,7 +106,7 @@ const repo='https://github.com/mkhsu2002/OnDemand-World-Observatory';
  let s=base('Proposed validation and acceptance gates',11);
  cols(s,[['Coherence','20 context combinations × 5 requests. Review species, reference identity and forbidden events.'],['Performance','Measure context, device prompt inference, video backend and total time-to-play separately.'],['User value','Proposed study: 5 creators and 10 visitors. Compare fixed clips with labeled variations.']]);
  txt(s,'Proposed gates: complete provenance, no unapproved species in accepted prompts, honest failures',64,548,1150,88,27,C.green,true);
- note(s,'These are proposed test sizes and gates, not completed studies. p50 and p95 latency, memory, energy boundaries, failures and retries to be collected after implementation. No numeric benchmark exists.');
+ note(s,'Proposed test sizes and acceptance gates for Stage II evaluation. p50 and p95 latency, memory, energy boundaries, failures and retries to be collected after implementation. Metrics would be collected during development.');
 }
 {
  let s=base('Stage II development plan',12);
@@ -122,12 +122,12 @@ const repo='https://github.com/mkhsu2002/OnDemand-World-Observatory';
  note(s,'Official home section IX and downloaded unsigned rights/portrait consent form accessed 28 Oct 2026. Organizer confirmation pending. No agreement accepted or signature performed. Similarity disclosure alone does not cure ineligibility.');
 }
 {
- let s=base('Stage I review package and next steps',14,true);
- txt(s,'Review-ready',64,215,470,55,31,C.gold,true);txt(s,'14-page English proposal\nDraft interfaces and examples\nEnglish concept video script\nSource and rights register',64,287,540,225,28,C.paper);
- txt(s,'Owner completion',688,215,500,55,31,C.gold,true);txt(s,'Eligibility and asset clearance\nLegal/contact fields and hardware\nSigned consent PDF\nJudge access and video link',688,287,520,225,28,C.paper);
+ let s=base('Development plan and project resources',14,true);
+ txt(s,'Project materials',64,215,470,55,31,C.gold,true);txt(s,'World-rule and interface plans\nScenario and data examples\nEnglish proposal and storyboard\nSource and reference register',64,287,540,225,28,C.paper);
+ txt(s,'Next development steps',688,215,500,55,31,C.gold,true);txt(s,'One domain and reference set\nUGen300 context planning\nVideo-service integration\nEmbeddable website component',688,287,520,225,28,C.paper);
  txt(s,repo,64,558,1150,45,21,C.mint);
- txt(s,'Private repository. No product source implementation yet.',64,610,1140,35,21,C.mint);
- note(s,'Repository is private and contains proposal materials, not a complete implemented product. Official home '+home+' and amendment accessed 28 Oct 2026. Full source register: sources/official-source-register.md. Scoring: innovation 30, commercial feasibility 35, practical value 25, storytelling 10. Deadline 28 Oct 17:00 Asia/Taipei. Live form PDF limit 15 MB, video optional discrepancy recorded.');
+ txt(s,'FlyPig AI / M.K. Hsu / Public project repository',64,610,1140,35,21,C.mint);
+ note(s,'Public repository chosen by the author for proposal review. Stage I materials describe the planned system and development steps. Official home '+home+' and amendment accessed 28 Oct 2026. Full source register: sources/official-source-register.md. Scoring: innovation 30, commercial feasibility 35, practical value 25, storytelling 10. Deadline 28 Oct 17:00 Asia/Taipei. Live form PDF limit 15 MB, video optional discrepancy recorded.');
 }
 await fs.mkdir(workspaceDir+'/.build/slides',{recursive:true});
 await fs.mkdir(root+'/deliverables',{recursive:true});
@@ -139,7 +139,8 @@ await fs.writeFile(workspaceDir+'/.build/deck-montage.webp',new Uint8Array(await
 const candidatePath=workspaceDir+'/.build/candidate.pptx';
 await (await PresentationFile.exportPptx(p)).save(candidatePath);
 console.log('Rendered and exported 14 slides');
-const finalPath=root+'/deliverables/OnDemand-World-Observatory-Proposal-rebuilt.pptx';
+const revision=process.env.BUILD_REVISION??'rebuilt';
+const finalPath=root+`/deliverables/OnDemand-World-Observatory-Proposal-${revision}.pptx`;
 const result=await finalizePresentation({workspaceDir,candidatePath,finalPath,
  pythonExecutable:process.env.RUNTIME_PYTHON,
  integrityValidatorPath:SKILL_DIR+'/container_tools/inspect_presentation_package_integrity.py',
@@ -147,5 +148,5 @@ const result=await finalizePresentation({workspaceDir,candidatePath,finalPath,
  layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],
  explicitTotalSlideCount:14,requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],
  fontPolicy:{basis:'design',families:[FONT]},verifyArtifactToolImport:true,
- receiptPath:workspaceDir+'/.build/presentation-validation.json'});
+ receiptPath:workspaceDir+`/.build/presentation-validation-${revision}.json`});
 console.log(JSON.stringify(result));

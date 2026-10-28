@@ -2,7 +2,7 @@
 
 Team: **FlyPig AI**. Project: OnDemand World Observatory. Author: M.K. Hsu.
 
-## Private Git repository files
+## Public repository files
 
 - `.gitignore`
 - `FILE-INVENTORY.md`

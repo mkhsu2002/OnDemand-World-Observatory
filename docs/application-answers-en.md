@@ -16,7 +16,7 @@ Verified on 28 October 2026 in the official registration modal: **輕量運算�
 | 作品標題 * | OnDemand World Observatory |
 | 作品簡介 * | Use the English description below after eligibility review. |
 | 提案簡報 * | deliverables/OnDemand-World-Observatory-Proposal.pdf. Form accepts PDF only, maximum 15 MB. PPTX is the editable source copy. |
-| GitHub連結 (no visible *) | https://github.com/mkhsu2002/OnDemand-World-Observatory. PRIVATE. Access for judges unresolved. Materials and interface drafts only, no implemented product source. |
+| GitHub連結 (no visible *) | https://github.com/mkhsu2002/OnDemand-World-Observatory. PUBLIC, by the author’s decision for proposal review. |
 | 展示影片 (no visible *, explicitly optional) | [YOUTUBE UNLISTED LINK PENDING]. Form recommends under 3 minutes. Do not paste a local path or pretend it is uploaded. |
 | 著作財產權授權暨肖像授權同意書上傳 * | Author signs one form per member and combines into one PDF. PDF maximum 15 MB. The supplied DOCX remains unsigned. |
 | 你在哪裡看到這個比賽？ * | Author selects actual source: BHUNTR / Facebook-Instagram / campus-teacher / email / poster / other. |
@@ -24,14 +24,14 @@ Verified on 28 October 2026 in the official registration modal: **輕量運算�
 | 投稿 | Owner-only final submission after all checks. |
 
 ## English project description
-OnDemand World Observatory proposes a new, short observation video every time a visitor opens a fictional-world observation page. AI would use the established domain, plausible species, time and climate to compose a coherent scenario and video prompt, then use approved reference images to request a new clip for playback. The goal is a fresh moment that remains consistent with the creator's world.
+OnDemand World Observatory plans realistic, real-time imagery for websites with existing artwork and world settings. Each opening of an observation page would request a new short video. AI would use the established domain, plausible species or characters, time and climate to compose a coherent scenario and video prompt, then use approved reference images to request a new clip for playback. The goal is a fresh moment that remains consistent with the creator's world.
 
-For Battlefield Lightning, we propose evaluating ASUS UGen300 with Hailo-10H for context interpretation and scenario/prompt generation. The video backend, deployment split and end-to-end latency remain to be validated after Stage I selection. We do not claim that UGen300 has generated a video or that the system has been implemented.
+For Battlefield Lightning, we propose evaluating ASUS UGen300 with Hailo-10H for context interpretation and scenario/prompt generation. A host service would manage world data, rules checks and requests, while an image-conditioned video service would create the clips. Development would evaluate model support, deployment compatibility, reference consistency and playback experience.
 
-This entry provides a proposal, architecture, interface drafts, hand-authored examples and an evaluation plan. K's Hunting Log is a prior public material/concept reference, not the competition product. Agentic-Life-World-Zero / Studio is a separate story-to-world product. Prior-work eligibility and asset rights require organizer and author confirmation before submission.
+The planned observation component could embed into novel, comic and game IP sites, virtual ecology and travel showcases, or brand storytelling websites. Operators would control scene availability, eligible subjects and permitted events while reusing their established artwork and visual identity.
 
 ## Short alternative
-An observation page that would generate a fresh short video on each opening, conditioned on a creator's world, plausible species, time, climate and reference images. Stage I contains a proposal and interface drafts. UGen300 context/prompt inference and the video backend remain unimplemented and unmeasured. Prior K material is disclosed as concept reference only.
+An observation page that would generate a fresh short video on each opening, conditioned on a creator's world, plausible species, time, climate and reference images. FlyPig AI plans an embeddable website component, context and prompt planning on a suitable UGen300 model, and integration with an image-conditioned video service.
 
 ## Classification note
 The visible modal has no separate Creator AI field. The chosen theme therefore appears in the English proposal and description. Do not invent an additional form field. The homepage requests GitHub/source references and a video, while the modal has no required GitHub marker and explicitly marks video optional. Keep the discrepancy in the checklist and ask the organizer if relying on optional status.

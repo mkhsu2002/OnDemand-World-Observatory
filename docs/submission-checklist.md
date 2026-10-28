@@ -4,10 +4,10 @@ Prepared 28 October 2026. **No registration, upload to the contest, agreement ac
 ## Deadline and format
 - [x] Checked home, live Lightning Global Online form, FAQ and schedule amendment.
 - [x] Deadline verified: 28 Oct 2026 17:00 Asia/Taipei = 09:00 UTC = 02:00 America/Vancouver.
-- [x] English 14-slide proposal planned below the 20-page body cap.
+- [x] English 14-slide proposal below the 20-page body cap.
 - [x] Editable PPTX and PDF provided. Use PDF for the form, maximum 15 MB.
-- [x] Independent private repo created under mkhsu2002. No old repository changed.
-- [ ] Owner resolves private judge access without assuming this preparation authorized invites or public release.
+- [x] Independent repository available at https://github.com/mkhsu2002/OnDemand-World-Observatory.
+- [x] Author confirmed PUBLIC visibility for proposal review.
 
 ## Owner information and decisions
 - [x] Confirmed team name: **FlyPig AI**. Project name remains OnDemand World Observatory. Author remains M.K. Hsu.

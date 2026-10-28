@@ -34,5 +34,7 @@
   ],
   "team_name": "FlyPig AI",
   "project_name": "OnDemand World Observatory",
-  "author": "M.K. Hsu"
+  "author": "M.K. Hsu",
+  "repository_visibility": "PUBLIC",
+  "publication_decision": "Author confirmed public repository access for proposal review."
 }

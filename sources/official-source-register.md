@@ -16,10 +16,10 @@
 - English proposal body ≤20 pages, appendix excluded. Deliverable has 14 total slides/pages.
 - Form accepts PDF only, maximum 15 MB. PPTX retained for editing.
 - Homepage requests an English demonstration and YouTube Unlisted link, recommended ≤3 min. Modal explicitly calls video optional. Do not hide the discrepancy.
-- Homepage requests a GitHub source-project link. Modal GitHub field has no asterisk. Private access and contracts-only Stage I acceptability need confirmation.
+- Homepage requests a GitHub source-project link. Modal GitHub field has no asterisk. The author has chosen PUBLIC repository access for proposal review. Stage I source-content expectations can be confirmed with the organizer.
 - Stage II Lightning requires UGen300 actual operation, complete repository, model information and performance evidence. No current hardware results are claimed.
 - Scoring: innovation/creativity 30%, commercial potential/feasibility 35%, practical value 25%, storytelling/presentation 10%.
 - Originality and broad licenses are eligibility/owner-decision blockers. Disclosure is not an exemption.
 
 ## Unperformed actions
-No contest submission, term acceptance, signature, identity entry, YouTube upload, paid generation, collaborator invitation or public release.
+No contest submission, term acceptance, signature, identity entry, YouTube upload, paid generation or collaborator invitation. The repository is PUBLIC by the author’s decision for proposal review.

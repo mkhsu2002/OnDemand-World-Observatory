@@ -1,29 +1,46 @@
-# Draft architecture, not implemented
+# Observation architecture and interface plan
+
+Team: **FlyPig AI**. Project: OnDemand World Observatory. Author: M.K. Hsu.
+
+The planned architecture connects an embeddable website observation component with world data, scenario planning and a video generation service.
 
 ```mermaid
 flowchart LR
-  B[Visitor opens observation page] --> H[Host request coordinator]
-  D[Approved domain / species / time / climate] --> H
-  R[Approved reference images and rights] --> H
-  H --> C[Context and scenario adapter]
-  C --> V[Constraint validator]
+  B[Website observation component] --> H[Host request coordinator]
+  D[Domain / eligible subjects / time / climate] --> H
+  R[Reference artwork and asset metadata] --> H
+  H --> C[Context and scenario planning]
+  C --> V[World-rule checks]
   V --> P[Video prompt and reference manifest]
-  P --> G[Video backend: undecided]
-  G --> O[New clip and result manifest]
+  P --> G[Video generation service]
+  G --> O[Observation clip and context]
   O --> B
 ```
 
-Stage II hypothesis: evaluate context interpretation and scenario/prompt construction in C on UGen300 / Hailo-10H using a supported model. H and V run on the host unless later evidence supports a different split. G remains unselected and unvalidated. Confirm split eligibility with the organizer. No deployed component exists today.
+## Planned division of work
 
-## Proposed interface behavior
-1. `POST /v1/observations`: validate a domain/context/reference request, create request id, return queued status. Every opening intends a fresh generation request. Idempotency retries of the same opening must not double-charge.
-2. Internal `ScenarioAdapter.compose(request, domain)`: return a candidate scenario, eligible species and bounded motion prompt.
-3. `VideoAdapter.submit(prompt, reference_ids)`: return job id. Provider, resolution, duration, cost and licensing remain undecided.
-4. `GET /v1/observations/{id}`: return queued, preparing, generating, ready or failed with honest provenance and optional clip location.
-5. A ready result must distinguish `generated_new` from `preexisting_concept`. Errors must not silently replace new generation with an old clip. The sample result is `not_executed`, has no URL and has no timing measurements.
+- **Website component:** accepts a scene identifier and observation conditions, presents request status, and plays the clip with a contextual description.
+- **Host coordinator:** manages domain data and references, checks world rules and tracks generation jobs.
+- **ASUS UGen300 / Hailo-10H:** a candidate for context interpretation and scenario/prompt planning with a supported model. Development would evaluate model support and host/runtime compatibility.
+- **Video generation service:** creates short clips from the planned prompt and reference images. Provider selection and integration would follow cost, rights and deployment evaluation.
 
-## Data and privacy
-Domain and reference records need creator authorization and provenance. Default context is fictional and creator-defined. A live-weather extension would need explicit location choice, timestamp and source. Do not collect precise visitor location by default. Retain request ids and technical timings only as needed. Keep provider credentials on the server and outside the repo.
+The Stage II evaluation would confirm this division of work against the track requirements and record device inference separately from video-service processing.
 
-## Failure and quality checks to implement
-Reject unknown species, missing reference approvals and unsupported context values. Validate prompt schema before spending a generation credit. Record provider failures and timeout states. Flag visual artifacts during evaluation. Ensure clip labels remain visible. Validate actual device usage and do not use host-only execution as hardware evidence.
+## Proposed interfaces
+
+1. `POST /v1/observations`: accepts domain, context and reference identifiers, creates a request id and returns generation status. Idempotency would associate retries with the same opening.
+2. `ScenarioAdapter.compose(request, domain)`: plans an eligible subject, activity, environment and viewing perspective within world rules.
+3. `VideoAdapter.submit(prompt, reference_ids)`: submits the reference-conditioned prompt and returns a job id.
+4. `GET /v1/observations/{id}`: returns queued, preparing, generating, ready or failed status, with clip and context metadata when available.
+
+## Context and visual consistency
+
+Domain records would define subject eligibility, time/climate options and permitted activities. Reference records would provide visual identity and asset approvals. The coordinator would check the candidate scenario before generation and retain the prompt, references and result metadata for evaluation.
+
+The examples in `examples/` illustrate the planned payloads. Their `not_executed` status and null result fields identify them as written design samples. A future output would include explicit provenance for a generated clip or a labeled reference preview.
+
+## Data and operation
+
+Initial context would come from creator-defined settings. A later live-weather extension would include an operator-selected location, source and timestamp. Credentials would remain on the host service. Request logs would support status reporting, troubleshooting and evaluation with limited retention.
+
+Quality checks would cover subject eligibility, reference consistency, visual artifacts, failed jobs and playback status. Performance evaluation would measure context preparation, device prompt planning, video generation and total time to playback separately.
