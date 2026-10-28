@@ -1,9 +1,11 @@
 # Work boundary and rights register
+Team: **FlyPig AI**. Project: OnDemand World Observatory. Author: M.K. Hsu.
+
 Prepared 28 October 2026. **No eligibility clearance or legal acceptance is implied.**
 
 | Item | Origin / timing | Use in this package | Rights / eligibility status |
 |---|---|---|---|
-| Proposal, slides, schemas, interface examples and script | New AI-assisted preparation for M.K. Hsu, 28 Oct 2026 | Stage I design materials | Author must review accuracy, authorship warranty and AI-assistance eligibility. No personal signature or certification by the assistant. |
+| Proposal, slides, schemas, interface examples and script | New AI-assisted preparation for FlyPig AI, author M.K. Hsu, 28 Oct 2026 | Stage I design materials | Author must review accuracy, authorship warranty and AI-assistance eligibility. No personal signature or certification by the assistant. |
 | K's Hunting Log /journey/ | Pre-existing public website | Concept reference URL and local prior-footage walkthrough | User authorized private preparation using accessible K media. Underlying image/video generation terms, ownership and organizer reuse/sublicense compatibility still unverified. Public availability is not a license. |
 | FK-W001/ecology.mp4, ecology.jpg | Public K media. Website metadata lists FK-W001 uploadDate 2026-10-23T21:20:41.598435Z (site claim) | Local review video and thumbnail planning | Clearly labeled PRIOR K FOOTAGE / CONCEPT ONLY. Raw files and derived review video excluded from Git. Competition reuse pending confirmation. |
 | FK-W003/ecology.mp4 | Public K media, existed at retrieval | Local review video and cut list | Same pending rights status. No new-output claim. |

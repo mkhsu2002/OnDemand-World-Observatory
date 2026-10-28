@@ -10,7 +10,8 @@ Prepared 28 October 2026. **No registration, upload to the contest, agreement ac
 - [ ] Owner resolves private judge access without assuming this preparation authorized invites or public release.
 
 ## Owner information and decisions
-- [ ] Confirm team name and member count (1–5), leader status, and one-entry-per-person compliance.
+- [x] Confirmed team name: **FlyPig AI**. Project name remains OnDemand World Observatory. Author remains M.K. Hsu.
+- [ ] Confirm member count (1–5), leader status, and one-entry-per-person compliance.
 - [ ] Confirm all participants are at least 18 and can meet Stage II deployment requirements.
 - [ ] Enter legal name. M.K. Hsu is an author credit, not a verified legal name.
 - [ ] Enter and verify leader email and phone. Resolve numeric international phone format if needed.

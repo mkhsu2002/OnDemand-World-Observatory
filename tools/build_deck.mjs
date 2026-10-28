@@ -25,12 +25,12 @@ const repo='https://github.com/mkhsu2002/OnDemand-World-Observatory';
 {
  let s=base('OnDemand World\nObservatory',1,true);
  txt(s,'Context-conditioned short video\nfor every observation-page opening',64,248,740,128,34,C.paper);
- txt(s,'M.K. Hsu\nCreator AI / Battlefield Lightning / Global Online Track',64,460,1010,92,24,C.mint);
+ txt(s,'Team: FlyPig AI / Author: M.K. Hsu\nCreator AI / Battlefield Lightning / Global Online Track',64,460,1010,92,24,C.mint);
  txt(s,'28 October 2026',64,586,600,32,21,C.gold);
  // An original flat observation-window diagram, with editable geometry.
  shape(s,902,242,250,250,'none','ellipse','#608C76');shape(s,940,280,174,174,'none','ellipse','#608C76');
  shape(s,884,365,286,2,C.gold);shape(s,1026,224,2,286,C.gold);txt(s,'NEW\nMOMENT',960,321,160,90,27,C.paper,true);
- note(s,'New proposal and interface drafts only. No generated-on-open prototype or hardware result. Author credit M.K. Hsu. Product definition from author instruction, 28 Oct 2026. Official track: '+home);
+ note(s,'New proposal and interface drafts only. No generated-on-open prototype or hardware result. Team: FlyPig AI. Author credit M.K. Hsu. Product definition from author instruction, 28 Oct 2026. Official track: '+home);
 }
 {
  let s=base('Repeat visits need fresh moments',2);

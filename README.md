@@ -2,7 +2,7 @@
 
 **Stage I application package, 28 October 2026. Product implementation has not started.**
 
-Author: **M.K. Hsu**. Intended entry: **Creator AI / Battlefield Lightning / Global Online Track**, ASUS UGen AI League 2026.
+Team: **FlyPig AI**. Author: **M.K. Hsu**. Intended entry: **Creator AI / Battlefield Lightning / Global Online Track**, ASUS UGen AI League 2026.
 
 Each time a visitor opens an observation page, the proposed AI uses an established domain, plausible species, time and climate context to create a new observation scenario and video prompt. An image-conditioned video backend would then generate a new short clip for playback. Fast generation is the intended experience, with feasibility and latency still to be investigated after Stage I selection.
 
@@ -43,6 +43,6 @@ The author must confirm eligibility for prior-public-work similarity, third-part
 
 ## 繁體中文摘要
 
-本案是 ASUS UGen AI League 2026 初賽申請資料，作者 M.K. Hsu。構想為每次開啟觀測網頁時，AI 依既有領域、可能物種、時間與氣候，產生合理情境與影片提示詞，參考既有圖片生成新的短影片後播放。即時快速為體驗目標，尚未實作或量測。這不是 3D、2.5D、WebGL 或持續模擬引擎。
+本案是 ASUS UGen AI League 2026 初賽申請資料，團隊 FlyPig AI，作者 M.K. Hsu。構想為每次開啟觀測網頁時，AI 依既有領域、可能物種、時間與氣候，產生合理情境與影片提示詞，參考既有圖片生成新的短影片後播放。即時快速為體驗目標，尚未實作或量測。這不是 3D、2.5D、WebGL 或持續模擬引擎。
 
 K 的狩獵日誌為既有公開素材／概念示意；Meta 的 Studio 為另一產品。本 repo 僅含提案、可編輯簡報、接口與手寫樣例，不把文件冒稱完整產品原始碼。入選後評估 UGen300 的情境理解與提示詞生成，影片後端與實機效能待驗證。原創資格、既有素材與永久商用再授權條款需本人及主辦確認，尚未報名、簽署或發布。

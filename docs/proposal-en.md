@@ -1,5 +1,6 @@
 # OnDemand World Observatory
 ## Stage I proposal
+**Team:** FlyPig AI  
 **Author:** M.K. Hsu  
 **Entry:** Creator AI / Battlefield Lightning / Global Online Track  
 **Prepared:** 28 October 2026  

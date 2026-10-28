@@ -12,18 +12,27 @@
   "artifacts": [
     {
       "path": "deliverables/OnDemand-World-Observatory-Proposal.pdf",
-      "size_bytes": 202375,
-      "sha256": "b0f35a2d235a93b4e0490ac0fdd769471b09549793f91c896285032e4b9de4d8"
+      "size_bytes": 202604,
+      "sha256": "990c615d60e9f9ecdce6227904225c94effb8f37142b2a08b17286bf2682dc90"
     },
     {
       "path": "deliverables/OnDemand-World-Observatory-Proposal.pptx",
-      "size_bytes": 70661,
-      "sha256": "4a58b6729de3c86cd18a9e0ac32a5b7498b1de6db1c824281f5bffb39aa26ec8"
+      "size_bytes": 70673,
+      "sha256": "7f2703267c16b20d0a2d4c9a03a95fdabb539e5c97e5e9a57438c30a07e3d085"
     },
     {
       "path": "deliverables/concept-walkthrough-LOCAL-REVIEW.mp4",
       "size_bytes": 13755948,
       "sha256": "3c3110dc42ec57e292f35ad2936ac1a5f3951fd70927dfb5d9627de83a2a908f"
     }
-  ]
+  ],
+  "team_name": "FlyPig AI",
+  "project_name": "OnDemand World Observatory",
+  "author": "M.K. Hsu",
+  "team_revision": {
+    "scope": "Confirmed team name only. Project and author unchanged.",
+    "unchanged_slides_pixel_identical": 13,
+    "unchanged_pdf_pages_pixel_identical": 13,
+    "video_unchanged": true
+  }
 }

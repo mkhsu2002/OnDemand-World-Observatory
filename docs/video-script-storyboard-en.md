@@ -1,11 +1,14 @@
 # English concept walkthrough script and storyboard
+
+**Team: FlyPig AI. Project: OnDemand World Observatory. Author: M.K. Hsu.**
+
 **Narration storyboard target: 2:35, under three minutes. Local review cut: 1:04 (64 seconds), eight English-text chapters, no audio.** No working demo exists. The local text-led review cut uses actual prior K habitat footage plus original diagrams. It has no narration, no cloned voice and no paid generation. Author narration can be recorded later if desired. Do not publish or submit before eligibility and rights confirmation.
 
 Persistent video label: **CONCEPT WALKTHROUGH / PRIOR K FOOTAGE / NO LIVE GENERATION**. Every proposed operation uses conditional wording. Source captions name FK-W001 / FK-W003. Different old clips must never be edited to imply a real page refresh generated them.
 
 | Time | Visual / shot plan | English voice-over draft |
 |---|---|---|
-| 00:00–00:15 | Existing wetland footage with project title and disclosure | This is OnDemand World Observatory, a Stage I concept by M.K. Hsu. The habitat footage comes from the earlier K's Hunting Log. It illustrates the creative direction. It does not show a working prototype or live generation. |
+| 00:00–00:15 | Existing wetland footage with project title and disclosure | This is OnDemand World Observatory, a Stage I concept from FlyPig AI, authored by M.K. Hsu. The habitat footage comes from the earlier K's Hunting Log. It illustrates the creative direction. It does not show a working prototype or live generation. |
 | 00:15–00:35 | Prior K footage, then original diagram showing repeat visitor | A returning visitor often sees the same images or prerecorded clips. Our proposal is to offer a fresh observation when the page opens, while preserving the creator's world rules and visual identity. |
 | 00:35–00:55 | Domain, species, time and climate inputs in an original flat diagram | The proposed AI would read an established domain, the species that could plausibly appear, the time and the climate. It would compose a coherent new scenario and a video prompt. These inputs are creator-defined fictional context in the first version. |
 | 00:55–01:15 | Hand-authored prompt sample and labeled reference frame | For example, misty dawn could produce a quiet wetland observation with one approved bird and gentle ripples. This prompt is a written sample. With approved reference images, a video backend would create a new short clip for playback. |

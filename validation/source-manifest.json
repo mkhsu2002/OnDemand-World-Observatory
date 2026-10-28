@@ -31,5 +31,8 @@
       "size_bytes": 4817497,
       "sha256": "533bee424bd673e28f04a26a22b293aecf79b95a4752d4f25548bf9aa444552f"
     }
-  ]
+  ],
+  "team_name": "FlyPig AI",
+  "project_name": "OnDemand World Observatory",
+  "author": "M.K. Hsu"
 }

@@ -1,9 +1,12 @@
 # Verified application fields and proposed answers
+
+**Team: FlyPig AI. Project: OnDemand World Observatory. Author: M.K. Hsu.**
+
 Verified on 28 October 2026 in the official registration modal: **輕量運算國際線上組 初賽徵件**. Nothing was entered or submitted. Asterisk below means a visible required marker. No field-length maximum was exposed for the description. The optional shorter description is provided for convenience, not as a claimed limit.
 
 | Actual field | Prepared answer / action |
 |---|---|
-| 團隊名稱 * (Team name) | Proposed: OnDemand World Observatory. Author to confirm. |
+| 團隊名稱 * (Team name) | FlyPig AI (confirmed by the author). |
 | 團隊人數 * (Team size) | Author to confirm 1–5. Do not infer solo participation from one known author. |
 | 隊長身份 * (Leader status) | Author selects student or working professional (在讀學生 / 社會人士). |
 | 隊長姓名 * | M.K. Hsu is known author credit only. Author supplies required legal name. |
