@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+.build/
+__pycache__/
+assets/concept/*.mp4
+assets/concept/*.jpg
+assets/concept/*.png
+deliverables/concept-walkthrough-LOCAL-REVIEW.mp4
+sources/*snapshot.html
+sources/official-consent-text.txt
+validation/rendered/
+*.key
+*.pem

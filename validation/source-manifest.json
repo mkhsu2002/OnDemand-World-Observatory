@@ -1,0 +1,35 @@
+{
+  "captured_date_utc": "2026-10-28",
+  "source_files": [
+    {
+      "path": "sources/official-home-snapshot.html",
+      "size_bytes": 90964,
+      "sha256": "58d92358f585002730f48ba268f71f25192d4eb4128e757d068c6568fccbead9"
+    },
+    {
+      "path": "sources/k-journey-snapshot.html",
+      "size_bytes": 110941,
+      "sha256": "6e6ecafe5b7a900e50f4553ffe5b10319124c377988ba90166b028ef12ed9745"
+    },
+    {
+      "path": "sources/official-rights-and-portrait-consent-UNSIGNED.docx",
+      "size_bytes": 28505,
+      "sha256": "e134684ee3406e0ba5bd8bac205bd5d7f93daa588a20ad2c215497d921f0a6d3"
+    },
+    {
+      "path": "assets/concept/k-FK-W001-ecology.jpg",
+      "size_bytes": 107297,
+      "sha256": "77ff585edfb6574fe86904e9ab9cdb94a539af8e9298beb00ffaa29ce2e9828a"
+    },
+    {
+      "path": "assets/concept/k-FK-W001-ecology.mp4",
+      "size_bytes": 6004720,
+      "sha256": "57b9f07e3a156d344584029a17bfd90653efdefdfa480b2e0ace4f976978b956"
+    },
+    {
+      "path": "assets/concept/k-FK-W003-ecology.mp4",
+      "size_bytes": 4817497,
+      "sha256": "533bee424bd673e28f04a26a22b293aecf79b95a4752d4f25548bf9aa444552f"
+    }
+  ]
+}

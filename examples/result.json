@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1-draft",
+  "request_id": "written-example-001",
+  "status": "not_executed",
+  "clip_url": null,
+  "video_backend": null,
+  "model_version": null,
+  "hardware_execution": null,
+  "provenance": "hand_authored_example",
+  "timings_ms": {
+    "context": null,
+    "prompt_inference": null,
+    "video": null,
+    "total_to_play": null
+  }
+}

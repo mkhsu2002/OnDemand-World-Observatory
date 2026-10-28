@@ -1,0 +1,10 @@
+{
+  "schema_version": "0.1-draft",
+  "request_id": "written-example-001",
+  "species_ids": [
+    "proposal-wading-bird"
+  ],
+  "scenario": "At misty dawn, a small wading bird takes two slow steps beside reeds in the approved fictional wetland.",
+  "prompt": "Use the approved reference artwork for habitat and species appearance. Fixed wide camera at water level. Soft dawn mist drifts above still water. One small approved wading bird takes two slow steps beside reeds. Subtle ripples. Preserve the reference anatomy and habitat. No additional species, text, hunting or sudden camera movement.",
+  "origin": "hand_authored_example_not_model_output"
+}

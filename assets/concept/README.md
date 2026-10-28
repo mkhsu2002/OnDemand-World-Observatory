@@ -1,0 +1,2 @@
+# Local prior-media review assets
+Downloaded publicly linked K clips and images remain ignored by Git. The user authorized private preparation using accessible K media. This does not establish submission eligibility or underlying sublicensing rights. Sources and exact usable ranges are in docs/k-media-cutlist.csv. Local review MP4 is a clearly labeled concept walkthrough and remains ignored, not published. No generated-on-open product output exists.

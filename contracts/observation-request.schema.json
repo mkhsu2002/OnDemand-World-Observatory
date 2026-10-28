@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Observation request draft",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "request_id",
+    "domain_id",
+    "time",
+    "climate",
+    "context_source",
+    "reference_ids",
+    "fresh_generation_requested",
+    "sample_status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "request_id": {
+      "type": "string"
+    },
+    "domain_id": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "climate": {
+      "type": "string"
+    },
+    "context_source": {
+      "type": "string"
+    },
+    "reference_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "fresh_generation_requested": {
+      "type": "boolean"
+    },
+    "sample_status": {
+      "type": "string"
+    }
+  }
+}

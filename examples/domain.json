@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1-draft",
+  "id": "proposal-wetland-01",
+  "status": "hand_authored_design_sample",
+  "title": "Fictional reed wetland",
+  "eligible_species": [
+    "proposal-wading-bird"
+  ],
+  "time_options": [
+    "dawn",
+    "dusk"
+  ],
+  "climate_options": [
+    "mist",
+    "light_rain"
+  ],
+  "constraints": [
+    "Only listed species may appear",
+    "No hunting or injury",
+    "No claims of scientific wildlife observation"
+  ],
+  "reference_ids": [
+    "reference-art-PENDING-RIGHTS"
+  ],
+  "reference_rights_status": "unverified_do_not_generate"
+}

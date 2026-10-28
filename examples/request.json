@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1-draft",
+  "request_id": "written-example-001",
+  "domain_id": "proposal-wetland-01",
+  "time": "dawn",
+  "climate": "mist",
+  "context_source": "creator_defined_fictional",
+  "reference_ids": [
+    "reference-art-PENDING-RIGHTS"
+  ],
+  "fresh_generation_requested": true,
+  "sample_status": "hand_authored_not_executed"
+}
